@@ -15,7 +15,7 @@ YUI().use(
     var body = Y.one('body')
       , container = Y.one('#a')
       , query = Y.one('.query')
-      , loadMoreButton = Y.one('.pure-button.loading')
+      , loadMoreButton = Y.one('.more-books .pure-button')
       , datasourceURLs = getDiscoveryDatasources(body.getData())
       , searchString = '*:*'
       , transactions = []
