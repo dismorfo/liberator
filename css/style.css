@@ -394,6 +394,8 @@ iframe {
   width: 100%;
   position: fixed;
   border: none;
+  visibility: hidden;
+  opacity: 0;  
 }
 
 .details-page .content-wrapper {
