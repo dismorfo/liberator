@@ -2,7 +2,7 @@
 
 umask 002
 
-APP_URL="http://localhost:8000/liberator"
+APP_URL="http://dev-dl-pa.home.nyu.edu/liberator"
 
 sourceUrl="http://dev-dl-pa.home.nyu.edu/books"
 

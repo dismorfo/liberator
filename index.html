@@ -13,27 +13,27 @@
       <div class="pure-g library-item">
         <div class="pure-u">
           <div class="img_hold">
-            <a href="http://localhost:8000/liberator/book/{{app}}/{{identifier}}"><img class="img-responsive" src="{{thumbHref}}" alt="" title="{{title}}"/></a>
+            <a href="http://dev-dl-pa.home.nyu.edu/liberator/book/{{app}}/{{identifier}}"><img class="img-responsive" src="{{thumbHref}}" alt="" title="{{title}}"/></a>
           </div>
         </div>
         <div class="pure-u body">
-          <h4><a href="http://localhost:8000/liberator/book/{{app}}/{{identifier}}">{{title}}</a></h4>
+          <h4><a href="http://dev-dl-pa.home.nyu.edu/liberator/book/{{app}}/{{identifier}}">{{title}}</a></h4>
           <div>by {{author}}</div>
           <p>{{description}}</p>
           <div class="caption buttons">
-            <a class="pure-button" href="http://localhost:8000/liberator/book/{{app}}/{{identifier}}">Read</a>
+            <a class="pure-button" href="http://dev-dl-pa.home.nyu.edu/liberator/book/{{app}}/{{identifier}}">Read</a>
           </div>    
         </div>
       </div>
     {{/items}}
   </script>  
 </head>
-<body class="home" data-app="http://localhost:8000/liberator" data-discovery-liberator="http://dev-discovery.dlib.nyu.edu:8080/solr3_discovery/core0/select?wt=json&amp;json.wrf=callback={callback}&amp;&amp;fq=hash:iy26sh&amp;fq=ss_collection_identifier:94b17163-75c2-42c4-b258-754e9fc9e0ea&amp;fl=ss_embedded,title,type,ss_collection_identifier,ss_identifer,ss_representative_image,teaser,sm_field_author,sm_field_title">
+<body class="home" data-app="http://dev-dl-pa.home.nyu.edu/liberator" data-discovery-liberator="http://dev-discovery.dlib.nyu.edu:8080/solr3_discovery/core0/select?wt=json&amp;json.wrf=callback={callback}&amp;&amp;fq=hash:iy26sh&amp;fq=ss_collection_identifier:94b17163-75c2-42c4-b258-754e9fc9e0ea&amp;fl=ss_embedded,title,type,ss_collection_identifier,ss_identifer,ss_representative_image,teaser,sm_field_author,sm_field_title">
   <div class="header"><div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
-  <a class="pure-menu-heading" href="http://localhost:8000/liberator/">The Liberator</a>
+  <a class="pure-menu-heading" href="http://dev-dl-pa.home.nyu.edu/liberator/">The Liberator</a>
   <ul>
-    <li><a href="http://localhost:8000/liberator/">Home</a></li>
-    <li><a href="http://localhost:8000/liberator/about">About</a></li>
+    <li><a href="http://dev-dl-pa.home.nyu.edu/liberator/">Home</a></li>
+    <li><a href="http://dev-dl-pa.home.nyu.edu/liberator/about">About</a></li>
   </ul>
 </div></div>
   <div class="content-wrapper">
@@ -41,11 +41,11 @@
       <div class="pure-u-1-2">
         <h2 class="content-head content-head-ribbon">About The Liberator</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-        <a href="http://localhost:8000/liberator/about" class="pure-button button-more">read more</a>
+        <a href="http://dev-dl-pa.home.nyu.edu/liberator/about" class="pure-button button-more">read more</a>
       </div>
       <div class="pure-u-1-2">
         <h3>Find books</h3>
-        <form class="pure-form" value="" method="get" action="http://localhost:8000/liberator/search">
+        <form class="pure-form" value="" method="get" action="http://dev-dl-pa.home.nyu.edu/liberator/search">
           <input type="text" class="pure-input" placeholder="American politics" value="">
           <button type="submit" class="pure-button">Search</button>
         </form>
@@ -79,7 +79,7 @@
 </div></div>
   </div>
   
-  <script src="http://localhost:8000/liberator/js/front.min.js"></script>
+  <script src="http://dev-dl-pa.home.nyu.edu/liberator/js/front.min.js"></script>
   
 </body>
 </html>
